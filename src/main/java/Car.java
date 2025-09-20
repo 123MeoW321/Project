@@ -24,7 +24,6 @@ public abstract class Car {
         this.color = newColor;
     }
 
-    // Геттеры
     public String getBrand() { return brand; }
     public String getModel() { return model; }
     public int getYear() { return year; }
@@ -32,9 +31,7 @@ public abstract class Car {
     public boolean isAutomatic() { return isAutomatic; }
     public int getPrice() { return price; }
 
-    // Абстрактный метод для изменения зеленого цвета на красный
     public abstract void changeGreenToRed();
 
-    // Абстрактный метод для проверки года выпуска
     public abstract String checkYear();
 }

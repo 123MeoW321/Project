@@ -2,11 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    //it's Main origin
+
     public static void main(String[] args) {
         List<Car> cars = new ArrayList<>();
 
-        // Добавляем автомобили разных марок
         cars.add(new Suzuki("Swift", 2020, "синий", true, 15000));
         cars.add(new Suzuki("Vitara", 2018, "зеленый", true, 20000));
         cars.add(new Toyota("Camry", 2022, "черный", true, 25000));
