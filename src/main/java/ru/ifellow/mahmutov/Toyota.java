@@ -2,7 +2,7 @@ package ru.ifellow.mahmutov;
 
 class Toyota extends Car {
     public Toyota(String model, int year, String color, boolean isAutomatic, int price) {
-        super("ru.ifellow.mahmutov.Toyota", model, year, color, isAutomatic, price);
+        super("Toyota", model, year, color, isAutomatic, price);
     }
 
     @Override
