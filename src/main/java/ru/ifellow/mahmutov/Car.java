@@ -1,3 +1,5 @@
+package ru.ifellow.mahmutov;
+
 public abstract class Car {
 
     String brand;
@@ -20,16 +22,10 @@ public abstract class Car {
         return brand + ", " + model + ", " + year + ", " + color +
                 ", " + (isAutomatic ? "автомат" : "механика") + ", " + price + "$";
     }
-    public void setColor(String newColor) {
-        this.color = newColor;
-    }
 
     public String getBrand() { return brand; }
     public String getModel() { return model; }
-    public int getYear() { return year; }
     public String getColor() { return color; }
-    public boolean isAutomatic() { return isAutomatic; }
-    public int getPrice() { return price; }
 
     public abstract void changeGreenToRed();
 

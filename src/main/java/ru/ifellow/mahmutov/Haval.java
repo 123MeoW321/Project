@@ -1,6 +1,8 @@
-class Suzuki extends Car {
-    public Suzuki(String model, int year, String color, boolean isAutomatic, int price) {
-        super("Suzuki", model, year, color, isAutomatic, price);
+package ru.ifellow.mahmutov;
+
+class Haval extends Car {
+    public Haval(String model, int year, String color, boolean isAutomatic, int price) {
+        super("ru.ifellow.mahmutov.Haval", model, year, color, isAutomatic, price);
     }
 
     @Override
