@@ -2,7 +2,7 @@ package ru.ifellow.mahmutov;
 
 class Lamborghini extends Car {
     public Lamborghini(String model, int year, String color, boolean isAutomatic, int price) {
-        super("ru.ifellow.mahmutov.Lamborghini", model, year, color, isAutomatic, price);
+        super("Lamborghini", model, year, color, isAutomatic, price);
     }
 
     @Override

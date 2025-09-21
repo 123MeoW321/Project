@@ -2,7 +2,7 @@ package ru.ifellow.mahmutov;
 
 class Lada extends Car {
     public Lada(String model, int year, String color, boolean isAutomatic, int price) {
-        super("ru.ifellow.mahmutov.Lada", model, year, color, isAutomatic, price);
+        super("Lada", model, year, color, isAutomatic, price);
     }
 
     @Override
