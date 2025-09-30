@@ -1,4 +1,4 @@
-package ru.ifellow.mahmutov;
+package ru.ifellow.mahmutov.IF_HW2;
 
 import java.util.ArrayList;
 import java.util.List;

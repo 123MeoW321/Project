@@ -1,8 +1,8 @@
-package ru.ifellow.mahmutov;
+package ru.ifellow.mahmutov.IF_HW2;
 
-class Toyota extends Car {
-    public Toyota(String model, int year, String color, boolean isAutomatic, int price) {
-        super("Toyota", model, year, color, isAutomatic, price);
+class Haval extends Car {
+    public Haval(String model, int year, String color, boolean isAutomatic, int price) {
+        super("Haval", model, year, color, isAutomatic, price);
     }
 
     @Override

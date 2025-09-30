@@ -1,4 +1,4 @@
-package ru.ifellow.mahmutov;
+package ru.ifellow.mahmutov.IF_HW2;
 
 class Suzuki extends Car {
     public Suzuki(String model, int year, String color, boolean isAutomatic, int price) {
